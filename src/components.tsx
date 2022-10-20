@@ -8,7 +8,7 @@ export function AddSubtract(): JSX.Element {
             <Button onClick={() => setValue(1 + value)}>Add One</Button>
             {" "}to {value}.{"  "}
             <Button onClick={() => setValue(value - 1)}>Subtract One</Button>
-        from {value}.
+            {" "}from {value}.
         </span>
     );
 }
