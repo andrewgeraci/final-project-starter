@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App(): JSX.Element {
+    const [value, setValue] = useState<number>(10);
     return (
         <div className="App">
             <header className="App-header">
@@ -12,6 +14,8 @@ function App(): JSX.Element {
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
             </header>
+            <Button onClick={() => setValue(value - 1)}>Subtract One</Button>
+            to {value}.
         </div>
     );
 }
