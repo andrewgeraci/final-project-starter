@@ -14,8 +14,6 @@ function App(): JSX.Element {
                 </p>
             </header>
             <div>
-                {/* I figured we could each do our own counter since we need multiple custom labels. 
-                Mine has the subract in it so that one's done */}
                 <AddSubtract></AddSubtract>
             </div>
             <div>
