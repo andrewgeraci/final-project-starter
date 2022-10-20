@@ -18,7 +18,9 @@ function App(): JSX.Element {
                 Mine has the subract in it so that one's done */}
                 <AddSubtract></AddSubtract>
             </div>
-            <Counter></Counter>
+            <div>
+                <Counter></Counter>
+            </div>
         </div>
     );
 }
